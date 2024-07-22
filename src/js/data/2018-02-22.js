@@ -392,7 +392,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kashuu",
-    img: "kashii_n.jpg",
+    img: "kashuu_n.jpg",
     opts: {
 
     },
