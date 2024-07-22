@@ -54,75 +54,91 @@ dataSet[dataSetVersion].options = [
     key: "dim",
     tooltip: "Check this to include alternate dimension counterparts to characters."
   },
-  {
-    name: "Remove Non-Girls",
-    key: "notgirl",
-    tooltip: "Check this to include all non-female characters."
-  }
 ];
 
 dataSet[dataSetVersion].characterData = [
+  {
+    name: "Aizen",
+    img: "Aizen_n.jpg",
+    opts: {
+
+    },
+  },
+  {
+    name: "Akashi",
+    img: "akashi_n.jpg",
+    opts: {
+
+    },
+  },
   {
     name: "Akita",
     img: "akita_n.jpg",
     opts: {
 
-    },
-  },
-  {
-    name: "Atsushi",
-    img: "atsushi_n.jpg",
-    opts: {
-
-    },
-  },
-  {
-    name: "Gokotai",
-    img: "Gokotai_n.jpg",
-    opts: {
-
    },
   },
   {
-    name: "Gotou",
-    img: "gotou_n.jpg",
+    name: "Atsushi",
+    img: "atsuhshi_n.jpg",
     opts: {
 
     },
   },
   {
-    name: "Hakata",
-    img: "hakata_n.jpg",
+    name: "Azuki",
+    img: "azuki_n.jpg",
     opts: {
 
     },
   },
   {
-    name: "Hirano",
-    img: "Hirano_n.jpg",
+    name: "Buzen",
+    img: "buzen_n.jpg",
     opts: {
 
     },
   },
   {
-    name: "Honebami",
-    img: "honebami_n.jpg",
+    name: "Chatannakiri",
+    img: "chat_n.jpg",
     opts: {
 
     },
   },
   {
-    name: "Kogitsunemaru",
-    img: "kogi_n.jpg",
+    name: "Chiganemaru",
+    img: "chiga_n.jpg",
     opts: {
 
     },
   },
   {
-    name: "Mikazuki",
-    img: "mikazuki_n.jpg",
+    name: "Chiyoganemaru",
+    img: "chiyo_n.jpg",
     opts: {
 
     },
-  }
+  },
+  {
+    name: "Chougi",
+    img: "chougi_n.jpg",
+    opts: {
+
+    },
+  },
+  {
+    name: "Daihannya",
+    img: "dai_n.jpg",
+    opts: {
+
+    },
+  },
+  {
+    name: "Doudanuki",
+    img: "dou_n.jpg",
+    opts: {
+
+    },
+  },
 ];
