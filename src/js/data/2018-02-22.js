@@ -31,13 +31,17 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter by Character Type",
     key: "type",
-    tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
+    tooltip: "Check this to restrict to characters to a type",
     checked: false,
     sub: [
-      { name: "CPU", key: "cpu" },
-      { name: "Maker", key: "mkr" },
-      { name: "Monster", key: "msr" },
-      { name: "Oracle", key: "orc" },
+      { name: "Tantou", key: "tan" },
+      { name: "Wakizashi", key: "waki" },
+      { name: "Uchigatana", key: "uchi" },
+      { name: "Tachi", key: "tachi" },
+      { name: "Ootachi", key: "oot" },
+      { name: "Yari", key: "yari" },
+      { name: "Naginata", key: "nagi" },
+      { name: "Tsurugi", key: "tsu" },
     ]
   },
   {
