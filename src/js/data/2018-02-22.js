@@ -59,7 +59,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "Aizen",
-    img: "Aizen_n.jpg",
+    img: "aizen_n.jpg",
     opts: {
 
     },
@@ -80,7 +80,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Atsushi",
-    img: "atsuhshi_n.jpg",
+    img: "atsushi_n.jpg",
     opts: {
 
     },
