@@ -322,7 +322,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ishikirimaru",
-    img: "ishiki_n.jpg",
+    img: "ishi_n.jpg",
     opts: {
 
     },
