@@ -3,26 +3,29 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Series Entry",
+    name: "Filter by School Entry",
     key: "series",
-    tooltip: "Check this to restrict to certain series.",
+    tooltip: "Check this to restrict to certain schools.",
     checked: false,
     sub: [
-      { name: "Hyperdimension Neptunia", key: "hdn" },
-      { name: "Hyperdimension Neptunia Mk2", key: "mk2" },
-      { name: "Hyperdimension Neptunia Victory", key: "v" },
-      { name: "Megadimension Neputnia VII", key: "vii" },
-      { name: "Hyperdimension Neptunia: Producing Perfection", key: "pp" },
-      { name: "Hyperdevotion Noire: Goddess Black Heart", key: "gbh" },
-      { name: "Hyperdimension Neptunia U: Action Unleashed", key: "au" },
-      { name: "MegaTagmension Blanc + Neptune VS Zombies", key: "zomb" },
-      { name: "Superdimension Neptune vs Sega Hard Girls", key: "sega" },
-      { name: "Cyberdimension Neptunia: 4 Goddesses Online", key: "fgo" },
-      { name: "Nep-Nep Connect: Chaos Chanpuru", key: "nnc" },
-      { name: "Hyperdimension Neptunia Re;birth 1", key: "rb1" },
-      { name: "Hyperdimension Neptunia Re;birth 2: Sisters Generation", key: "rb2" },
-      { name: "Hyperdimension Neptunia Re;birth 3: V Generation", key: "rb3" },
-      { name: "Megadimension Neptunia VIIR", key: "viir" },
+      { name: "Aoe", key: "aoe" },
+      { name: "Awataguchi", key: "awa" },
+      { name: "Bungonokuni Yukihira", key: "by" },
+      { name: "Fukuoka Ichimonji", key: "fi" },
+      { name: "Gou", key: "gou" },
+      { name: "Hiromitsu", key: "hi" },
+      { name: "Horikawa", key: "ho" },
+      { name: "Kanesada", key: "kane" },
+      { name: "Kobizen", key: "kobi" },
+      { name: "Kotetsu", key: "kote" },
+      { name: "Masamune", key: "masa" },
+      { name: "Miike", key: "mii" },
+      { name: "Muramasa", key: "mura" },
+      { name: "Osafune", key: "osa" },
+      { name: "Sadamune", key: "sada" },
+      { name: "Samonji", key: "samo" },
+      { name: "Sanjou", key: "san" },
+      { name: "Unlisted", key: "ul" },
     ]
   },
   {
@@ -56,47 +59,66 @@ dataSet[dataSetVersion].options = [
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "5pb. (Lyrica)",
+    name: "Akita",
     img: "akita_n.jpg",
     opts: {
-      series: ['hdn', 'mk2', 'rb2', 'rb3'],
-      type: ['mkr'],
-      form: false,
-      dim: false,
-      notgirl: false,
+
     },
   },
   {
-    name: "Abaddon",
-    img: "akita_n.jpg",
+    name: "Atsushi",
+    img: "atsushi_n.jpg",
     opts: {
-      series: ['vii', 'viir'],
-      type: ['msr'],
-      form: false,
-      dim: false,
-      notgirl: true,
+
     },
   },
   {
-    name: "Abnes",
-    img: "akita_n.jpg",
+    name: "Gokotai",
+    img: "Gokotai_n.jpg",
     opts: {
-      series: ['v', 'rb3'],
-      type: ['mkr'],
-      form: false,
-      dim: false,
-      notgirl: false,
+
    },
   },
   {
-    name: "Affimojas",
-    img: "akita_n.jpg",
+    name: "Gotou",
+    img: "gotou_n.jpg",
     opts: {
-      series: ['vii', 'viir'],
-      type: ['mkr'],
-      form: false,
-      dim: false,
-      notgirl: true,
+
+    },
+  },
+  {
+    name: "Hakata",
+    img: "hakata_n.jpg",
+    opts: {
+
+    },
+  },
+  {
+    name: "Hirano",
+    img: "Hirano_n.jpg",
+    opts: {
+
+    },
+  },
+  {
+    name: "Honebami",
+    img: "honebami_n.jpg",
+    opts: {
+
+    },
+  },
+  {
+    name: "Kogitsunemaru",
+    img: "kogi_n.jpg",
+    opts: {
+
+    },
+  },
+  {
+    name: "Mikazuki",
+    img: "mikazuki_n.jpg",
+    opts: {
+
     },
   }
 ];
